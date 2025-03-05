@@ -33,6 +33,8 @@ public class DragItem : MonoBehaviour
         itemCollider.enabled = false;
     }
 
+   
+    
     private void OnMouseDrag() //Перемещение объекта
     {
         Vector3 targetPosition = GetMousePosition() + _offset; //Вычисляем позицию мыши(тача)
